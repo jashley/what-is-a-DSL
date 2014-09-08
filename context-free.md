@@ -24,6 +24,7 @@ the reference guide.
 _We don't yet have a great definition of the term "computational model". 
 For now, try to come up with the clearest, most concise explanation of what 
 happens when a ContextFree program runs._
+
 When a program runs, it determines a start rule, then executes a rule of that name.Based on a pre-defined
 hierarchy, it performs its drawings in a certain order, then moves on to the next rule (if any).
 
