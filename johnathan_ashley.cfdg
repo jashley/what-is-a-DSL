@@ -1,0 +1,13 @@
+startshape grid 
+
+rule grid{
+	20* {y 1} {
+		20* {x 1} {
+			randShape{h 60 b 1 sat 1}
+		}
+	}
+}
+
+rule randShape{SQUARE {}}
+rule randShape{CIRCLE{h -0.4|}}
+rule randShape{TRIANGLE{h 0.8|}}
